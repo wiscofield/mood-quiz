@@ -1,0 +1,39 @@
+.topnav {
+  background-color: gold;
+  overflow: hidden;
+  font-family: fantasy;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+body {
+  background-image: url(https://media.giphy.com/media/3o6Ygfz2OG7kje214k/giphy.gif);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+}

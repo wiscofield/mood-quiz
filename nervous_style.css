@@ -1,0 +1,39 @@
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+  font-family: fantasy;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+body {
+  background-image: url(https://media.giphy.com/media/l49JNIabmrz7gMTy8/giphy.gif);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: large;
+}
