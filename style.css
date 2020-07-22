@@ -1,0 +1,70 @@
+body {
+  background-image: url(https://media.giphy.com/media/TDKjSUGGbTAup6w3FO/giphy.gif);
+  background-size: cover;
+  margin: 0 auto;
+  text-align: center;
+}
+
+p {
+  font-family: fantasy;
+  font-size: 45px;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: white;
+    padding: .5em;
+    padding-left: .10em;
+    padding-right: .10em;
+    /*width: .20em;*/
+}
+
+/*QUESTION HEADERS*/
+.question {
+    display: none;
+}
+
+.question#q1 h2{
+  text-align:none;
+  padding-bottom: 5px;
+  font-size: 20px;
+
+}
+
+.question h3 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.question h2 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.question h3 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.question h4 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.question h5 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+.question h6 {
+  text-align: none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}

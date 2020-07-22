@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>Mood finder</title>
+  </head>
+  <body>
+    <div class="topnav">
+      <a class="active" href="Home">
+      <a href="relaxed.html">Relaxed Page</a>
+      <a href="nervous.html">Nervous Page</a>
+    </div>
+
+    <main>
+      <header>
+        <ul>Welcome to the Mood Finder!</ul>
+        <ul>Discover how your feeling right now. Maybe visit your current mood right through the menu bar.</ul>
+      </header>
+
+      <form  id="form1">
+
+        <div class="question" id="q0"></div>
+
+        <div class="question" id="q1">
+          <h1>How Are You Feeling?</h1>
+          <ul class="options">
+            <li class='option1'>
+              <label><input type="radio" name="q1" value="0" /> Relaxed </label>
+            </li>
+            <li class='option2'>
+              <label><input type="radio" name="q1" value="90" /> Angry </label>
+            </li>
+            <li class='option3'>
+              <label><input type="radio" name="q1" value="180" /> Sad </label>
+            </li>
+            <li class='option4'>
+              <label><input type="radio" name="q1"value="270" /> Nostalgic </label>
+            </li>
+          </ul>
+        </div>
+        <div class="question" id="q2">
+          <h2>Question 2</h2>
+          <ul class="options">
+            <ul class='option1'>
+              <label><input type="radio" name="q2" value="0" />Choice 1</label>
+            </ul>
+            <ul class='option2'>
+              <label><input type="radio" name="q2" value="90" />Choice 2</label>
+            </ul>
+            <ul class='option3'>
+              <label><input type="radio" name="q2" value="180" />Choice 3</label>
+            </ul>
+            <ul class='option4'>
+              <label><input type="radio" name="q2"value="270" />Choice 4</label>
+            </ul>
+          </ul>
+          <div>
+
+          </div>
+        </div>
+
+        <div class="question" id="q3">
+          <h3>Question 3</h3>
+
+          <ul class="options">
+            <ul class='option1'>
+              <label><input type="radio" name="q3" value="0" />Choice 1</label>
+            </ul>
+            <ul class='option2'>
+              <label><input type="radio" name="q3" value="90" />Choice 2</label>
+            </ul>
+            <ul class='option3'>
+              <label><input type="radio" name="q3" value="180" />Choice 3</label>
+            </ul>
+            <ul class='option4'>
+              <label><input type="radio" name="q3"value="270" />Choice 4</label>
+            </ul>
+          </ul>
+          <div>
+
+          </div>
+        </div>
+
+        <div class="question" id="q4">
+          <h3>Question 4</h3>
+          <ul class="options">
+            <ul class='option1'>
+              <label><input type="radio" name="q4" value="0" />Choice 1</label>
+            </ul>
+            <ul class='option2'>
+              <label><input type="radio" name="q4" value="90" />Choice 2</label>
+            </ul>
+            <ul class='option3'>
+              <label><input type="radio" name="q4" value="180" />Choice 3</label>
+            </ul>
+            <ul class='option4'>
+              <label><input type="radio" name="q4"value="270" />Choice 4</label>
+            </ul>
+          </ul>
+          <div>
+
+          </div>
+        </div>
+
+        <div class="question" id="q5">
+          <h3>Question 5</h3>
+
+          <ul class="options">
+            <ul class='option1'>
+              <label><input type="radio" name="q5" value="0" />Choice 1</label>
+            </ul>
+            <ul class='option2'>
+              <label><input type="radio" name="q5" value="90" />Choice 2</label>
+            </ul>
+            <ul class='option3'>
+              <label><input type="radio" name="q5" value="180" />Choice 3</label>
+            </ul>
+            <ul class='option4'>
+              <label><input type="radio" name="q5"value="270" />Choice 4</label>
+            </ul>
+          </ul>
+          <div>
+
+          </div>
+        </div>
+
+        <div class="question" id="q6">
+          <h3>Question 6</h3>
+
+          <ul class="options">
+            <ul class='option1'>
+              <label><input type="radio" name="q6" value="0" />Choice 1</label>
+            </ul>
+            <ul class='option2'>
+              <label><input type="radio" name="q6" value="90" />Choice 2</label>
+            </ul>
+            <ul class='option3'>
+              <label><input type="radio" name="q6" value="180" />Choice 3</label>
+            </ul>
+            <ul class='option4'>
+              <label><input type="radio" name="q6"value="270" />Choice 4</label>
+            </ul>
+          </ul>
+          <div>
+
+          </div>
+        </div>
+
+        <button type="button" id="next" onclick="nextQuestion()">Next</button>
+
+      </form>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

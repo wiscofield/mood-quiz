@@ -20,6 +20,8 @@
 
 body {
   background-image: url(https://media.giphy.com/media/3o6Ygfz2OG7kje214k/giphy.gif);
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   margin: 0 auto;
   text-align: center;
