@@ -19,7 +19,7 @@
     <main>
       <header>
         <ul>Welcome to the Mood Finder!</ul>
-        <ul>Discover how your feeling right now. Maybe visit your current mood right through the menu bar.</ul>
+        <ul>Discover how you're feeling right now. Maybe visit your current mood right through the menu bar.</ul>
       </header>
 
       <form  id="form1">
@@ -27,19 +27,19 @@
         <div class="question" id="q0"></div>
 
         <div class="question" id="q1">
-          <h1>How Are You Feeling?</h1>
+          <h2>How Are You Feeling?</h2>
           <ul class="options">
             <li class='option1'>
-              <label><input type="radio" name="q1" value="0" /> Relaxed </label>
+              <label><input type="radio" name="q1" value="relaxed" /> Relaxed </label>
             </li>
             <li class='option2'>
-              <label><input type="radio" name="q1" value="90" /> Angry </label>
+              <label><input type="radio" name="q1" value="angry" /> Angry </label>
             </li>
             <li class='option3'>
-              <label><input type="radio" name="q1" value="180" /> Sad </label>
+              <label><input type="radio" name="q1" value="sad" /> Sad </label>
             </li>
             <li class='option4'>
-              <label><input type="radio" name="q1"value="270" /> Nostalgic </label>
+              <label><input type="radio" name="q1"value="nervous" /> Stressed </label>
             </li>
           </ul>
         </div>
@@ -47,6 +47,8 @@
           <h2>Question 2</h2>
           <ul class="options">
             <ul class='option1'>
+              <div class="container">
+              <div class= 'option1'>1</div>
               <label><input type="radio" name="q2" value="0" />Choice 1</label>
             </ul>
             <ul class='option2'>
@@ -65,7 +67,7 @@
         </div>
 
         <div class="question" id="q3">
-          <h3>Question 3</h3>
+          <h2>Question 3</h2>
 
           <ul class="options">
             <ul class='option1'>
@@ -87,7 +89,7 @@
         </div>
 
         <div class="question" id="q4">
-          <h3>Question 4</h3>
+          <h2>Question 4</h2>
           <ul class="options">
             <ul class='option1'>
               <label><input type="radio" name="q4" value="0" />Choice 1</label>
@@ -108,7 +110,7 @@
         </div>
 
         <div class="question" id="q5">
-          <h3>Question 5</h3>
+          <h2>Question 5</h2>
 
           <ul class="options">
             <ul class='option1'>
@@ -130,7 +132,7 @@
         </div>
 
         <div class="question" id="q6">
-          <h3>Question 6</h3>
+          <h2>Question 6</h2>
 
           <ul class="options">
             <ul class='option1'>
@@ -151,7 +153,7 @@
           </div>
         </div>
 
-        <button type="button" id="next" onclick="nextQuestion()">Next</button>
+        <button type="button" id="next" onclick="nextQuestion()">Start Quiz</button>
 
       </form>
     </main>

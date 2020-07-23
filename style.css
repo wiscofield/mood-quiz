@@ -29,42 +29,45 @@ header {
     display: none;
 }
 
-.question#q1 h2{
+.question#q1 h2 {
   text-align:none;
   padding-bottom: 5px;
   font-size: 20px;
-
 }
 
-.question h3 {
-  text-align: none;
-  padding-bottom: 5px;
-  font-size: 20px;
+.container {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:5%;
+  grid-auto-rows: minmax(25%, auto);
 }
 
-.question h2 {
-  text-align: none;
-  padding-bottom: 5px;
-  font-size: 20px;
-}
-.question h3 {
-  text-align: none;
-  padding-bottom: 5px;
-  font-size: 20px;
-}
-.question h4 {
-  text-align: none;
+.question#q2 h2 {
+  text-align:none;
   padding-bottom: 5px;
   font-size: 20px;
 }
 
-.question h5 {
-  text-align: none;
+.question#q3 h2 {
+  text-align:none;
   padding-bottom: 5px;
   font-size: 20px;
 }
-.question h6 {
-  text-align: none;
+
+.question#q4 h2 {
+  text-align:none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.question#q5 h2 {
+  text-align:none;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.question#q6 h2 {
+  text-align:none;
   padding-bottom: 5px;
   font-size: 20px;
 }
