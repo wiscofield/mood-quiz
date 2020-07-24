@@ -7,156 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="">
     <link rel="stylesheet" href="style.css">
-    <title>Mood finder</title>
+    <title>Mood finder introduction</title>
   </head>
   <body>
-    <div class="topnav">
-      <a class="active" href="Home">
-      <a href="relaxed.html">Relaxed Page</a>
-      <a href="nervous.html">Nervous Page</a>
-      <a href="sad.html">Sad Page </a>
-      <a href="excited.html">Excited Page</a>
-    </div>
+      <h1> PROJECT TITLE </h1>
+      <h2> Welcome to the Mood Finder!</h2>
+      <h3> Discover how you're feeling right now, using our
+        interactive quiz. This quiz is designed to walk you through your day, problem by problem.
+         Pick the first answer you think of and then move to the next question.
+         Not every question will have every mood. Enjoy! </h3>
 
-    <main>
 
-      <form  id="form1">
+    <b> What's your name? </b>
+    <form action="quiz.html" method="get">
+     <input type="text" id="input"/>
+     <input type="submit" value="Next" onclick="passvalues()"/>
+    </form>
 
-        <div class="question" id="q0"></div>
 
-        <div class="question" id="q1">
-          <h2>How Are You Feeling?</h2>
-          <ul class="options">
-            <li class='option1'>
-              <label><input type="radio" name="q1" value="r" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q1" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q1" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q1" value="nervous" /> Stressed </label>
-            </li>
-          </ul>
-        </div>
-      </form>
-      <form>
-        <div class="question" id="q2">
-          <h2>Question 2</h2>
-          <ul class="options">
-            <ul class='option1'>
-              <div class="container">
-              <div class= 'option1'>1</div>
-              <label><input type="radio" name="q2" value="relaxed" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q2" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q2" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q2" value="nervous" /> Stressed </label>
-            </ul>
-          </ul>
-          <div>
-          </form>
-          </div>
-        </div>
-
-        <div class="question" id="q3">
-          <h2>Question 3</h2>
-
-          <ul class="options">
-            <ul class='option1'>
-              <label><input type="radio" name="q3" value="relaxed" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q3" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q3" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q3" value="nervous" /> Stressed </label>
-            </ul>
-          </ul>
-          <div>
-
-          </div>
-        </div>
-
-        <div class="question" id="q4">
-          <h2>Question 4</h2>
-          <ul class="options">
-            <ul class='option1'>
-              <label><input type="radio" name="q4" value="relaxed" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q4" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q4" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q4" value="nervous" /> Stressed </label>
-            </ul>
-          </ul>
-          <div>
-
-          </div>
-        </div>
-
-        <div class="question" id="q5">
-          <h2>Question 5</h2>
-          <ul class="options">
-            <ul class='option1'>
-              <label><input type="radio" name="q5" value="relaxed" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q5" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q5" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q5" value="nervous" /> Stressed </label>
-            </ul>
-          </ul>
-          <div>
-
-          </div>
-        </div>
-
-        <div class="question" id="q6">
-          <h2>Question 6</h2>
-
-          <ul class="options">
-            <ul class='option1'>
-              <label><input type="radio" name="q6" value="relaxed" /> Relaxed </label>
-            </li>
-            <li class='option2'>
-              <label><input type="radio" name="q6" value="angry" /> Angry </label>
-            </li>
-            <li class='option3'>
-              <label><input type="radio" name="q6" value="sad" /> Sad </label>
-            </li>
-            <li class='option4'>
-              <label><input type="radio" name="q6" value="nervous" /> Stressed </label>
-            </ul>
-          </ul>
-          <div> -->
-
-          </div>
-        </div>
-
-        <button type="button" id="next" onclick="nextQuestion()">Start Quiz</button>
-
-      </form>
-    </main>
     <script src="script.js"></script>
     <script src="name.js"></script>
+
   </body>
 </html>
