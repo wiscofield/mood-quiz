@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 
 <html lang="en">
@@ -181,3 +182,179 @@
 </body>
 
 </html>
+=======
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    <title>Mood finder</title>
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="Home">
+            <a href="relaxed.html">Relaxed Page</a>
+            <a href="nervous.html">Nervous Page</a>
+            <a href="sad.html">Sad Page </a>
+            <a href="excited.html">Excited Page</a>
+            <a href="index.html">Landing Page</a>
+    </div>
+
+    <main>
+
+        <div id=questions>
+            <form id="form1">
+
+            <div class="question" id="q0"></div>
+            <div class="question" id="q1">
+                <h2>Good morning <span id="result"></span>! As you’re getting out of bed <span id="result"></span>, you trip and slam your toe on your dresser, hard. What’s the first thought that pops into your head?<span></span></h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q1" id="p1" value="relaxed" /> Okay, breathe. Sit down, take a moment, and then start your day off on the right foot. </label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q1" id="p2" value="angry" /> Shit! That hurt but it’s okay. At least I’m out of bed now!</label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q1" id="p3" value="sad" /> Okay, that was a sign. Maybe I’ll just go back to bed and try this again later… </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q1" id="p4" value="nervous" /> Okay, okay! Why did I have to hit my foot? Ugh, now I need to just get myself together and stop screwing up and get on with my morning. </label>
+                    </li>
+                </ul>
+               <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+         </form>
+
+
+        <form id="form2">
+
+            <div class="question" id="q1"></div>
+            <div class="question" id="q2">
+                <h2>Okay , so maybe that wasn’t the best start to your morning. As you look up at your clock, you realize that you’re now late for work. How do you react ?</h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q2" id="p1" value="relaxed" /> It’s okay. I just need to calm down and focus on what I can control. No one will notice I’m late anyways.</label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q2" id="p2" value="angry" /> It’s okay! I need to be quick, but if I hurry I’ll still make the morning meeting. </label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q2" id="p3" value="sad" /> N/A </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q2" id="p4" value="nervous" /> Oh, no. I HATE being late and being late looks bad and they’ll all think I’m dedicated… </label>
+                    </li>
+                </ul>
+                <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+        </form>
+
+        <form id="form3">
+
+            <div class="question" id="q2"></div>
+            <div class="question" id="q3">
+                <h2>It was close, but you made it to work. As you’re going about your day and getting ready for lunch, you hear someone talking poorly about your coworker. Some of the things are true but they’re not saying it in the nicest way. How do you respond?</h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q3" id="p1" value="relaxed" /> I walk away. Fighting with them right now isn’t smart, but maybe I’ll talk to them privately later. </label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q3" id="p2" value="angry" /> N/A </label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q3" id="p3" value="sad" /> Ugh, I feel bad, but I just don’t want to bother with it today. It’s too much. Maybe tomorrow? </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q3" id="p4" value="nervous" /> I’m torn, because I don’t want your coworker to think poorly of you, but I also want to have a good relationship with the person bad mouthing them. I’m stressed, but I decide to talk to them. </label>
+                    </li>
+                </ul>
+                <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+        </form>
+
+        <form id="form4">
+
+            <div class="question" id="q3"></div>
+            <div class="question" id="q4">
+                <h2>That was a long day. As you’re getting ready to head home, your best friend calls and asks if you want to go out. You’re tired, but you still have some energy. What’s your response?</h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q4" id="p1" value="relaxed" /> I walk away. Fighting with them right now isn’t smart, but maybe I’ll talk to them privately later. </label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q4" id="p2" value="angry" /> Of course! I’m kind of tired but what the heck. I’m sure we’ll have lots of fun! </label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q4" id="p3" value="sad" /> Ughhhhhhhhhhhhhhhhh. I am TIRED. So no, I’m going to run only in the direction of my bed. I don’t really feel like socializing today. </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q4" id="p4" value="nervous" /> Stressed </label>
+                    </li>
+                </ul>
+                <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+        </form>
+
+        <form id="form5">
+
+            <div class="question" id="q4"></div>
+            <div class="question" id="q5">
+                <h2> , you make it home eventually and start to get ready for bed. After you eat dinner and do everything you need to. What do you want to do first?</h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q5" id="p1" value="relaxed" /> Relaxed </label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q5" id="p2" value="angry" /> Ooooooooooo I forgot that I wanted to play that new video game, NAME OF NEW GAME. I think I’ll do that! </label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q5" id="p3" value="sad" /> I’m just going to go to bed. I don’t really want to do anything- it’s too much work. </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q5" id="p4" value="nervous" /> I think I want to watch TV, but maybe I should watch that new movie everyone’s talking about. 	TRENDY MOVIE NAME, is it?? I don’t know honestly. Maybe I’ll just write more emails tonight? </label>
+                    </li>
+                </ul>
+                <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+        </form>
+
+        <form id="form6">
+
+            <div class="question" id="q5"></div>
+            <div class="question" id="q6">
+                <h2>It’s been a really long day, but finally it’s time for bed. What’s the last thing you do before you go to sleep?</h2>
+                <ul class="options">
+                    <li class='option1'>
+                        <label><input type="radio" name="q6" id="p1" value="relaxed" /> I read a nice, calming book from my favorite author and fall fast asleep. </label>
+                    </li>
+                    <li class='option2'>
+                        <label><input type="radio" name="q6" id="p2" value="angry" /> Angry </label>
+                    </li>
+                    <li class='option3'>
+                        <label><input type="radio" name="q6" id="p3" value="sad" /> I just lay there and stare at the ceiling blankly. It’s boring. Who cares? </label>
+                    </li>
+                    <li class='option4'>
+                        <label><input type="radio" name="q6" id="p4" value="nervous" /> I try to go to bed, but my phone pings and I just have to check it. It’s from my boss. Maybe I should respond now, but I’m also really tired. I think I might just send a quick response... </label>
+                    </li>
+                </ul>
+                <button><input type="submit" value="Go!" onclick="nextQuestion()"></button>
+            </div>
+        </form>
+
+        <button type="button" id="next" onclick="nextQuestion()">Start Quiz</button>
+
+        </form>
+    </main>
+    <script src="script.js"></script>
+    <script src="name.js"></script>
+</div>
+</body>
+
+</html>
+>>>>>>> e87d40bf2465db28d0cc18fb7db4c648affb39df
