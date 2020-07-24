@@ -1,5 +1,5 @@
 .topnav {
-  background-color: gray;
+  background-color: rgb(209, 15, 15);
   overflow: hidden;
   font-family: fantasy;
   position: fixed;
@@ -17,12 +17,12 @@
 }
 
 .topnav a:hover {
-  background-color: darkgray;
+  background-color: darkred;
   color: white;
 }
 
 body {
-  background-image: url(https://media.giphy.com/media/Xd7QqFPv4IVAz8dnog/giphy.gif);
+  background-image: url(https://media.giphy.com/media/KDrjub26iceZ2/giphy.gif);
   background-attachment: fixed;
   background-position: center;
   background-size: cover;

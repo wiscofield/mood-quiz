@@ -2,6 +2,9 @@
   background-color: gold;
   overflow: hidden;
   font-family: fantasy;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .topnav a {

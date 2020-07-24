@@ -13,13 +13,14 @@ let user = {
 
 //functions
 function addToStat(points, stat) {
-    //BIG PROBLEM (SYNTAX)
-    user[stat] += points;
-    console.log(stat + user[stat]);
+    console.log(stat , user[stat],points);
+    user[stat] = user[stat] + 1;
+    console.log(user);
+
 }
 
 function setStat(points, stat) {
-    user[stat] = points;
+    return user[stat] = points;
 }
 
 function getStat(stat) {
@@ -27,7 +28,7 @@ function getStat(stat) {
 }
 
 function highStat() {
-    return Object.keys(user).reduce(function(a, b){return user[a] > user[b] ? a : b});
+    Object.keys(user).reduce(function(a, b){return user[a] > user[b] ? a : b});
     //Yes I did steal this from the internet but I do understand it!
 }
 
@@ -47,25 +48,32 @@ function nextQuestion() {
     qNum++;
     if (qNum < MAX_QUESTIONS + 1 && qNum > 0) {
         document.querySelector('.question#q' + (qNum - 1)).style.display = 'none';
-        respond();
         document.querySelector('.question#q' + qNum).style.display = 'block';
+        respond();
     }
 
     if(qNum == 6) {
         //Change button to submit
         buttonToSubmit();
+        respond();
     }
     if(qNum == 7) {
         document.querySelector('.question#q' + (qNum - 1)).style.display = 'none';
         hideButton();
         onSubmit();
+        respond();
     }
 }
 
 function respond() {
-    let stat = document.querySelector('input[name=q' + qNum + ']').value;
-
+    console.log(qNum);
+    let statquestion = 'input[name=q' + qNum + ']:checked';
+    console.log(statquestion);
+    let stat = document.querySelector(statquestion);
+    console.log(stat);
     addToStat(1, stat);
+
+
 }
 
 function buttonToNext() {

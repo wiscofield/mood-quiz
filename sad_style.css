@@ -1,17 +1,14 @@
 .topnav {
-  background-color: gray;
+  background-color:);
   overflow: hidden;
-  font-family: fantasy;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .topnav a {
-  float: left;
+  float:left;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2%;
   text-decoration: none;
   font-size: 18px;
 }
@@ -22,22 +19,24 @@
 }
 
 body {
-  background-image: url(https://media.giphy.com/media/Xd7QqFPv4IVAz8dnog/giphy.gif);
-  background-attachment: fixed;
-  background-position: center;
+  padding-top: 2%;
+  background-image: url();
   background-size: cover;
   margin: 0 auto;
   text-align: center;
+  color: rgb(55, 95, 160;
 }
 
+#input:hover {
+ background-color: grey;
+}
 h1 {
-  color: white;
   text-align: center;
-  font-family: cursive;
+  font-family: font-family: 'Roboto Mono', monospace;
+  font-weight: 1000;
 }
 
 p {
-  color: white;
   text-align: center;
   font-family: cursive;
   font-size: large;
