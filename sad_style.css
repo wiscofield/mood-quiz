@@ -1,7 +1,8 @@
 .topnav {
-  background-color:);
+  background-color:rgb(81, 132, 241);
   overflow: hidden;
   font-family: 'Roboto Mono', monospace;
+  font-weight:500;
 }
 
 .topnav a {
@@ -20,20 +21,15 @@
 
 body {
   padding-top: 2%;
-  background-image: url();
+  background-image: url(https://giphy.com/gifs/dark-rain-grey-DOOmrLn8OwklW);
   background-size: cover;
   margin: 0 auto;
   text-align: center;
-  color: rgb(55, 95, 160;
+  color: rgb(55, 95, 160);
 }
 
 #input:hover {
  background-color: grey;
-}
-h1 {
-  text-align: center;
-  font-family: font-family: 'Roboto Mono', monospace;
-  font-weight: 1000;
 }
 
 p {

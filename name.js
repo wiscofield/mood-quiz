@@ -7,4 +7,4 @@ function passvalues(){
 //console.log("apple");
 
 //var cat = localStorage.getItem('myCat');
-document.querySelector("#result").innerHTML = localStorage.getItem("textvalue");
+// document.querySelectorAll(".result").innerHTML = localStorage.getItem("textvalue");

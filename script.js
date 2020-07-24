@@ -49,26 +49,39 @@ function nextQuestion() {
     if (qNum < MAX_QUESTIONS + 1 && qNum > 0) {
         document.querySelector('.question#q' + (qNum - 1)).style.display = 'none';
         document.querySelector('.question#q' + qNum).style.display = 'block';
-
-        //respond();
+        let names = document.querySelectorAll(".result");
+        for (let i = 0; i < names.length; i++){
+            names[i].innerHTML = localStorage.getItem("textvalue");
+        }
     }
 
     if(qNum == 6) {
         //Change button to submit
         buttonToSubmit();
-        respond();
+        console.log(user);
+
     }
     if(qNum == 7) {
         document.querySelector('.question#q' + (qNum - 1)).style.display = 'none';
         hideButton();
-        onSubmit();
-        respond();
+        document.querySelector("#relaxed").innerHTML = "relaxed : " + user.relaxed;
+        console.log(user);
+        document.querySelector("#angry").innerHTML = "angry : " + user.angry;
+        console.log(user);
+        document.querySelector("#sad").innerHTML ="sad : " + user.sad;
+        console.log(user);
+        document.querySelector("#nervous").inner="nervous : " + user.nervous;
+        console.log(user);
     }
 
 }
 
 function respond() {
     console.log(qNum);
+    let button = document.querySelector('#next');
+    button.style.display = 'none';
+    console.log('Hiding button');
+
 //var gender = document.querySelector('input[name = "gender"]:checked').value;
   //  console.log("You entered " + gender + " for your gender<br>");
 
@@ -76,6 +89,7 @@ function respond() {
   let questionNum = "q"+qNum.toString();
     let stat = document.querySelector(`input[name = "${questionNum}"]:checked`).value;
     console.log(stat);
+
     addToStat(1, stat);
 
 
@@ -86,38 +100,46 @@ function respond() {
 document.querySelector("#form1").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 document.querySelector("#form2").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 document.querySelector("#form3").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 document.querySelector("#form4").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 document.querySelector("#form5").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 document.querySelector("#form6").addEventListener("submit",function(evt){
     evt.preventDefault();
     respond();
+    nextQuestion();
 })
 
 function buttonToNext() {
     console.log('Button updated to next');
-    let button = document.querySelector('#next');
-    button.innerText = 'Next';
+    // let button = document.querySelector('#next');
+    // button.innerText = 'Next';
 }
+
+
 
 function buttonToSubmit() {
     console.log('Button updated to submit');
@@ -131,7 +153,4 @@ function hideButton() {
     button.style.display = 'none';
 }
 
-function onSubmit() {
-    //Show highStat() and links
-    console.log(highStat());
-}
+//document.querySelectorAll (".waffle").style.display = 'none';
